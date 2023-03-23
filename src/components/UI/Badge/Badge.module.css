@@ -1,0 +1,14 @@
+.wrapper {
+  color: white;
+  background-color: #87cefa;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translate(40%, -40%);
+}

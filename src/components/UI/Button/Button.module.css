@@ -1,0 +1,47 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.default {
+  background-color: #87cefa;
+}
+
+.success {
+  background-color: chartreuse;
+}
+
+.danger {
+  background-color: orangered;
+}
+
+.md {
+  width: 130px;
+  height: 50px;
+}
+
+.lg {
+  width: 200px;
+  height: 60px;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.button:disabled {
+  opacity: 0.3;
+}
